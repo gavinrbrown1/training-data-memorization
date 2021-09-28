@@ -13,5 +13,8 @@ The plots visualize how the classifier accuracy and recovery error evolve over t
 - `attacks.py` defines functions for the black-box attacks.
 - `base_utils.py` contains everything else, including functions to generate data and evaluate accuracy.
 
-The code uses a few standard Python packages. 
-Coming: a `requirements.txt` file.
+The code uses a few standard Python packages:
+- `numpy`, version 1.16.4
+- `torch`, version 1.7.1
+- `pandas`, version 0.24.2
+- `matplotlib`, version 3.1.0
